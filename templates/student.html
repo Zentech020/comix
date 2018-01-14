@@ -1,0 +1,68 @@
+<html>
+<head>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.3/css/bootstrap.min.css" integrity="sha384-Zug+QiDoJOrZ5t4lssLdxGhVrurbmBWopoEl+M6BdEfwnCJZtKxi1KgxUyJq13dy" crossorigin="anonymous">
+<style media="screen">
+.comic_input{
+  margin-top: 20% !important;
+
+}
+</style>
+</head>
+    <body>
+
+<div class="container-fluid">
+  <div class="row">
+    <div style="height:100vh; border-right:1px solid black;" class="col-sm">
+      <img style="margin-top:3%;" src="https://i.imgur.com/Ls4Op08.png" alt="">
+
+      <img class="img-fluid" style="margin-top:20%;" src="https://i.imgur.com/24Tsmf9.png?1" alt="">
+    </div>
+    <div style="height:100vh; border-left:1px solid black;" class="col-sm">
+      <h1 class="text-center">Insert all the context to make a comic</h1>
+      <form class="comic_input my-auto" action = "/result" method = "POST">
+      <div class="form-group">
+        <label for="inputAddress2">Context 1</label>
+        <input type="text" class="form-control" id="inputAddress2" name="one">
+      </div>
+      <div class="form-group">
+        <label for="inputAddress">Context 2</label>
+        <input type="text" class="form-control" id="inputAddress" name="two">
+      </div>
+      <div class="form-group">
+        <label for="inputAddress2">Context 3</label>
+        <input type="text" class="form-control" id="inputAddress2" name="three">
+      </div>
+
+          <div class="col-auto">
+            <button type="submit" class="btn btn-lg btn-warning" >Submit</button>
+          </div>
+        </div>
+      </form>
+
+      <!-- <form>
+        <div class="form-group">
+          <label for="inputAddress2">Address 2</label>
+          <input type="text" class="form-control" id="inputAddress2" >
+        </div>
+        <div class="form-group">
+          <label for="inputAddress">Address</label>
+          <input type="text" class="form-control" id="inputAddress" placeholder="1234 Main St">
+        </div>
+        <div class="form-group">
+          <label for="inputAddress2">Address 2</label>
+          <input type="text" class="form-control" id="inputAddress2" placeholder="Apartment, studio, or floor">
+        </div>
+        <div class="form-group">
+          <label for="inputAddress2">Address 2</label>
+          <input type="text" class="form-control" id="inputAddress2" placeholder="Apartment, studio, or floor">
+        </div>
+
+        <button type="submit" class="btn btn-primary">Sign in</button>
+      </form> -->
+
+    </div>
+
+  </div>
+</div>
+    </body>
+ </html>
